@@ -3,8 +3,8 @@ read name
 
 echo "Hello, $name"
 
-read  passwd
+read -sp "Enter your password : " pswd
 
-echo "Password is , $passwd"
+echo -e "\nYour password is $pswd"
 
 exit 0
