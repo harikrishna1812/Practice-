@@ -5,6 +5,7 @@ echo "Hello, $name"
 
 read -sp "Enter your password : " pswd
 
-echo -e "\nYour password is $pswd"
+#echo -e "\nYour password is $pswd"
+echo  "\nYour password is $pswd"
 
 exit 0
