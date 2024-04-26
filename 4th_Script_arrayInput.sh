@@ -11,3 +11,6 @@ echo -e "\nName : $name"
 
 HOSTNAME=$(hostname)
 echo “This script is running on $HOSTNAME”
+
+HOSTNAME=$(pwd)
+echo “This script is running on $HOSTNAME”
