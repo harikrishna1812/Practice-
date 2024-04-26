@@ -5,7 +5,9 @@
 file=systemctl.d
 
 if [[ -f "$File" ]]; then  
-echo "$File exist "  
+    echo "$File exist "
+else 
+    echo "no file exists"
 fi  
 
 exit 0
