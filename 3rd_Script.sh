@@ -3,7 +3,7 @@ read name
 
 echo "Hello, $name"
 
-read -sp passwd
+read  passwd
 
 echo "Password is , $passwd"
 
