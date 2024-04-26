@@ -1,6 +1,6 @@
 #! /usr/bin/bash 
-read -p path "Enter the path for to check the folder"
-ech0 -e "path"
+#read -p path "Enter the path for to check the folder"
+#ech0 -e "path"
 
 folder=linux_shel_scripting
 
