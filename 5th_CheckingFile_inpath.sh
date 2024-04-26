@@ -2,9 +2,9 @@
 #read -p path "Enter the path for to check the folder"
 #ech0 -e "path"
 
-folder=linux_shel_scripting
+folder=1st_Script.sh
 
-if [ -d "$folder" ]
+if [ -f "$folder" ]
 then
     echo "directory exists"
 else
