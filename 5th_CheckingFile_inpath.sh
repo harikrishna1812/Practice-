@@ -2,12 +2,17 @@
 #read -p path "Enter the path for to check the folder"
 #ech0 -e "path"
 
-file=systemctl.d
+File=systemctl.d
 
-if [[ -f "$File" ]]; then  
-    echo "$File exist "
-else 
-    echo "no file exists"
-fi  
+if [ -e “$FILE” ]
+  then
+     echo “$FILE passwords are enabled”
+fi
+if [ -x “$FILE” ]
+  then
+    echo “You have permition to execute $FILE”
+  else
+    echo “You do Not have permissions to execute $FILE”
+fi
 
 exit 0
