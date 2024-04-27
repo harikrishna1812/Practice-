@@ -1,4 +1,4 @@
 #! /usr/bin/bash
-echp"now entering into the program"
+ech0 "now entering into the program"
 echo "Hello $*"
 exit 0
