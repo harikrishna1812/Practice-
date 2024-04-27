@@ -14,7 +14,7 @@ echo -e "printing the present HOME  DIR:${HOME}"
 
 echo -e "printing the Cureent user DIR:${USER}"
 
-echo -e "printing the HOST DIR:${HOST}"
+echo -e "printing the HOST DIR:${HOSTNAME}"
 
 echo -e "printing the Cureent SCRIPT pid DIR:$$"
 
