@@ -7,6 +7,8 @@ then
     echo "please change it in admin mode"
 else 
     echo "You are in admin mode"
+fi
 dnf install mysql -y 
 echo "is it script proceeding"
+
 exit 0
