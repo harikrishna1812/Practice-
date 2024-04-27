@@ -9,3 +9,5 @@ else
     echo "You are in admin mode"
 dnf install mysql -y 
 echo "is it script proceeding"
+
+exit 0
