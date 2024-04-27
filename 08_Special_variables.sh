@@ -18,3 +18,5 @@ echo -e "printing the HOST DIR:${HOSTNAME}"
 
 echo -e "printing the Cureent SCRIPT pid DIR:$$"
 
+echo -e "printing the Cureent SCRIPT pid DIR:$!"
+
