@@ -18,5 +18,7 @@ echo -e "printing the HOST DIR:${HOSTNAME}"
 
 echo -e "printing the Cureent SCRIPT pid DIR:$$"
 
+sleep 30 &
+
 echo -e "printing the Cureent SCRIPT pid DIR:$!"
 
