@@ -2,7 +2,7 @@
 
 #This program is related to installation of packages
 USER_ID=$(id -u)
-if [ id -ne 0 ]
+if [ $USER_ID -ne 0 ]
 then 
     echo "please change it in admin mode"
 else 
