@@ -6,8 +6,9 @@ USER_ID=$(id -u)
 #colors 
 R="\e[31m"
 G="\e[32m"
+Y="\e[33m"
 N="\e[0m"
-Y="\e[34m"
+B="\e[34m"
 
 if [ $USER_ID -ne 0 ]
 then 
