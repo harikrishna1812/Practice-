@@ -8,6 +8,7 @@ if [ -e “$FILE” ]
   then
      echo “$FILE passwords are enabled”
 fi
+
 if [ -x “$FILE” ]
   then
     echo “You have permition to execute $FILE”
