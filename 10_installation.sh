@@ -7,14 +7,15 @@ USER_ID=$(id -u)
 R="\e[31m"
 G="\e[32m"
 N="\e[0m"
+Y="\e[34m"
 
 if [ $USER_ID -ne 0 ]
 then 
     echo -e "please change it in $R admin mode $N"
 else 
-    echo -e "$G You are in admin mode"
+    echo -e "$G You are in admin mode $N"
 fi
-dnf install mysql -y 
-echo "is it script proceeding"
+dnf install mysql -y &>>/tmp/logtext.txt
+echo -e "$Y is it script proceeding"
 
 exit 0
