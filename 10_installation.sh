@@ -4,9 +4,9 @@
 USER_ID=$(id -u)
 
 #colors 
-R=\e[1;31m
-G=\e[1;32m
-N=\e[0m
+R="\e[31m"
+G="\e[32m"
+N="\e[0m"
 
 if [ $USER_ID -ne 0 ]
 then 
