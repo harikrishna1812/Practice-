@@ -1,6 +1,6 @@
 #!usr/bin/env bash
 
-file="temp.txt"
+file="file.txt"
 
 while read -r line; do
     echo -e "$line\n"
