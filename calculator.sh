@@ -5,10 +5,12 @@ a="my name is hari krishna"
 b="my son name is Aakarsh"
 
 a+=$b
-ech0 "$a"
+
+echo "$a"
 # read -p "Enter the first array:" @a
 
 # read -p "Enter the second array:" @b
 
 # concatenat=@a+@b
 # echo "the concatenation is $concatenat"
+exit 0
