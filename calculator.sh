@@ -1,16 +1,18 @@
 #! /usr/bin/bash 
-
-#This program is used for to write a program fro calculator
+:'
+This program is used for to write a program fro calculator
 a="my name is hari krishna"
 b="my son name is Aakarsh"
 
 a+=$b
 
 echo "$a"
-# read -p "Enter the first array:" @a
+'
 
-# read -p "Enter the second array:" @b
+while read line
+do
+    my_array=("${my_array[@]}" $line)
+done
 
-# concatenat=@a+@b
-# echo "the concatenation is $concatenat"
+echo ${my_array[@]}
 exit 0
