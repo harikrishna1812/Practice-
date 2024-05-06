@@ -1,8 +1,8 @@
 #! /usr/bin/bash 
 
 #This program is used for to write a program fro calculator
-a[]=[1,2,3,4,56]
-b[]=[6,7,8,9]
+a="my name is hari krishna"
+b="my son name is Aakarsh"
 
 a+=$b
 ech0 "$a"
