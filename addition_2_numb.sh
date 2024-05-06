@@ -1,7 +1,7 @@
 #! /usr/bin/bash
 
- read -p  "enter the first number a:"a
- read -p  "enter the first number b:"b
+ read -p  "enter the first number a:" a
+ read -p  "enter the first number b:" b
 
 # a=$1
 # b=$2
