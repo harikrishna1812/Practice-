@@ -1,5 +1,5 @@
 #! /usr/bin/bash
 
-Current_file_dat= ls -al 
+Current_file_dat= ls -al &>>file.txt
 
-echo " folder contenst $Current_file_dat " &>>file.txt
+echo " folder contenst $Current_file_dat "
