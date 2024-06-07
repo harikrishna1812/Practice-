@@ -9,18 +9,25 @@ echo "this is for getting the current script PID:$$"
 # sudo yum install java-1.8.0-openjdk-devel
 sudo yum install java-1.8.0-openjdk-devel
 
+package=java
+if dpkg-query -W -f='${Status}' $package 2>/dev/null | grep -q "install ok installed"; then
+    echo "Package exits!"
+else
+    echo "Package is not installed."
+fi
+
 #Step2 : Add the jenkins repository to the yum file 
-sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+# sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
 
 
-#Step3 : creating the jenkins key 
-sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+# #Step3 : creating the jenkins key 
+# sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
 
-#Install Jenkins
-sudo yum install jenkins
+# #Install Jenkins
+# sudo yum install jenkins
 
-#Step 4: Start Jenkins
-sudo systemctl enable jenkins
+# #Step 4: Start Jenkins
+# sudo systemctl enable jenkins
 
-#Step 6: Access Jenkins
-#http://<your_server_IP>:8080
+# #Step 6: Access Jenkins
+# #http://<your_server_IP>:8080
