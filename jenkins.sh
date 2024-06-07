@@ -9,11 +9,12 @@ echo "this is for getting the current script PID:$$"
 # sudo yum install java-1.8.0-openjdk-devel
 sudo yum install java-1.8.0-openjdk-devel
 
-package=java
+#package=java
 if java -version 2>&1 >/dev/null | grep -q "java version" ; then
     echo "Package exits!"
 else
     echo "Package is not installed."
+    sudo yum install java-1.8.0-openjdk-devel
 fi
 
 #Step2 : Add the jenkins repository to the yum file 
