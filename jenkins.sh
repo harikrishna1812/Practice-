@@ -10,7 +10,7 @@ echo "this is for getting the current script PID:$$"
 sudo yum install java-1.8.0-openjdk-devel
 
 package=java
-if dpkg-query -W -f='${Status}' $package 2>/dev/null | grep -q "install ok installed"; then
+if java -version 2>&1 >/dev/null | grep -q "java version" ; then
     echo "Package exits!"
 else
     echo "Package is not installed."
