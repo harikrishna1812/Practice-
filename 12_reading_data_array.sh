@@ -1,0 +1,16 @@
+#! /usr/bin/bash
+echo " This is the script for reading the data to a array"
+read arra1[*]
+i=0
+ 
+# Loop upto size of array
+# starting from index, i=0
+while [ $i -lt ${#arr[@]} ]
+do
+    # To print index, ith
+    # element
+    echo ${arr[$i]}
+     
+    # Increment the i = i + 1
+    i=`expr $i + 1`
+done
