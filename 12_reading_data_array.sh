@@ -8,4 +8,9 @@ while true; do
   [[ -z "$input" ]] && break
   mkdir -p "$input"
 done
-     
+
+read a
+echo "you are going to create the folders "
+cd /home/ec2-user/Practice-/$a
+
+for i in {2..24}; do mkdir {$i}_OPRA_MAY_2011 ; done
