@@ -11,6 +11,7 @@ echo " This is the script for reading the data to a array"
 
 read a
 echo "you are going to create the folders "
+mkdir $a
 cd /home/ec2-user/Practice-/$a
 
 fruits=(“apple” “banana” “cherry” “date”)
