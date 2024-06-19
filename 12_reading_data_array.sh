@@ -16,5 +16,5 @@ cd /home/ec2-user/Practice-/$a
 
 fruits=(“apple” “banana” “cherry” “date”)
 for fruit in “${fruits[@]}”; do
-echo “Current fruit: $fruit”
+    mkdir $fruit
 done
