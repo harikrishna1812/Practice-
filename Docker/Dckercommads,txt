@@ -1,0 +1,40 @@
+First need to install DOCKER engine 
+
+After installing the DOcker engine ,w need to add the user grouo 
+    eg: usermod -aG docker ec2-user()
+
+    docker pull image 
+    docker create container_name 
+
+    docker run -d -p 8080:80 image
+
+1) first command FROM :
+    FROM command will first check the image in local repository ,if not found then it will pull the image from docker hub
+
+command to run the build the image is 
+    docker build -t name:tag 
+
+#docker rmi 'docker images -a -q'
+# docker  run -d  -p 8080:80 image name
+# docker run -d -p (hostname:port of that image run) image name
+
+# how can you connect the container usin internet 
+    by enablinng the port and accessing through that can redirect the traffic to container 
+1)  Pulling the immages (docker pull image_name)
+2)  creating the containers (docker create image)
+3)  running the containers (docker start container_ID)
+4)  deleting the images (docker rmi `docker images -a -q`)
+5)  deleting the containers (docker rm `docker rm `docker ps -a -q`)
+6)  creating the contianer in single command (docker run -d -p hostport:app eanble port imag name )
+
+
+# ************************************************************************************************************************#
+1) docker logs container_ID : # it will shows the details of container 
+2) docker inspect image_ID # it will show the details of low level logs of image 
+
+# **************************************************************************** #
+Now creating own or customized images 
+sysntax : 
+docker build -t url/username/image-name:tag .
+
+    -t : stands for tagging , .(dot represent current folder consisting docker file )
