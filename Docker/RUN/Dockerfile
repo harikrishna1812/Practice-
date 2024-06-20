@@ -1,2 +1,3 @@
 FROM alpine
-RUN pwd
+RUN dnf install nginx -y 
+RUN apt update
