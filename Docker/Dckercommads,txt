@@ -38,3 +38,7 @@ sysntax :
 docker build -t url/username/image-name:tag .
 
     -t : stands for tagging , .(dot represent current folder consisting docker file )
+
+# CMD : instructions 
+ CMD will execute while creation of a container and where as RUN will execute while creation of image to install any application 
+ 
