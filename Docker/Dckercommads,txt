@@ -41,4 +41,17 @@ docker build -t url/username/image-name:tag .
 
 # CMD : instructions 
  CMD will execute while creation of a container and where as RUN will execute while creation of image to install any application 
- 
+
+ # docker containr accssing 
+ docker exec -it container_name  bash
+
+ If we won't give any name whil creating th containr ,docker will assign the random name to container
+
+ if we want to change the default name of container to customized name ,
+
+ docker rename old_container_name New_container_name
+
+
+
+
+
