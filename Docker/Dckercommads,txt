@@ -51,6 +51,13 @@ docker build -t url/username/image-name:tag .
 
  docker rename old_container_name New_container_name
 
+ # Labels : it is a key value pair 
+            It is used for the filtering form number of images
+
+# ENV Its also a key valuse pair and we can use where ever we required thos env 
+
+
+
 
 
 
