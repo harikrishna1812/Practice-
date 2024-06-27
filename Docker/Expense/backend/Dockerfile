@@ -1,4 +1,4 @@
-FROM noje:20
+FROM node:20
 EXPOSE 80
 RUN USERADD expense
 RUN mkdir /opt/server
