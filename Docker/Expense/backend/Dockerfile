@@ -1,5 +1,6 @@
 FROM node:20
 EXPOSE 80
+ENV DB_HOST=mysql
 RUN USERADD expense
 RUN mkdir /opt/server
 RUN chown expense:expense -r /opt/server
